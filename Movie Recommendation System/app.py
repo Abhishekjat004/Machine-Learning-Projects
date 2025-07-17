@@ -4,7 +4,7 @@ import requests
 
 
 def fetch_poster(movie_id):
-    url = f"http://www.omdbapi.com/?i={movie_id}&apikey=e8b635ef"
+    url = f"http://www.omdbapi.com/?i={movie_id}&apikey=YOUR_API_KEY"
     response = requests.get(url)
     data = response.json()
     
